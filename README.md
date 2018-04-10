@@ -9,9 +9,9 @@ In order to install the NSS-TODO-List (extended) application:
 <li>Make sure you have a PHP 5.2.5 or higher installed on your system.</li>
 <li><strong>Note:</strong> You can download an installer like XAMPP for the above two requirements.</li>
 <li>Start the Apache server if it is not already running. Verify by going to localhost in your browser</li>
-<li>Checkout the project and put all its contents in the 'htdocs' (/www) folder of Apache.You may need to mount same via XAMPP</li>
+<li>Checkout the project and put all its contents in the 'htdocs' (/www) folder of Apache.</li>
 <li><strong>Note:</strong> You may want to explore your file read/write permissions on your local file system.</li>
-<li>Go to http://localhost/dotdash-project/index.php (or whatever name you have given to the folder containing all of the project files) and access the application.</li>
+<li>Go to http://localhost/nss-todo-automation/index.php (or whatever name you have given to the folder containing all of the project files) and access the application.</li>
 </ul>
 <h3>Test Cases:</h3>
 Write test cases to test various functionalities and features of this app. Imagine you are a QA Lead and how would you go about successfully testing this app. The more scenarios you cover the better coverage you can provide. First test the API call and then test the interface and functionality of this app. Please provide your test cases in plain English and paste them under /test_cases.txt file.
@@ -30,8 +30,11 @@ Note: There can be more than below suggested test cases.
 
 <h3>Automation:</h3>
 The goal is to use access the fake API call at http://localhost/nss-todo-automation/fake-API-call.php and automate above suggested test cases. 
-Selenium Webdriver with preferably Python bindings (or any other OO language of your choice). Automate the above test cases in order to test the functional flow through of the application. In particular, we want to test options around creating a todo, assigning categories, modifying/deleting existing todos etc. The application should itself be fairly self-explanatory. Feel free to email us (qa@dotdash.com) with any questions about it. Please use the application first to populate data for API. I would suggest create some dunny tasks.
+Selenium Webdriver with preferably JavaScript bindings (or any other OO language of your choice). Automate the above test cases in order to test the functional flow through of the application. In particular, we want to test options around creating a todo, assigning categories, modifying/deleting existing todos etc. The application should itself be fairly self-explanatory. Feel free to email us (qa@about.com) with any questions about it. Please use the application first to populate data for API. I would suggest create some dummy tasks.
 
+
+<h3>Bonus exercise:</h3>
+Try to use Cypress or Protractor. First translate the above test cases to jasmine framework and then automate them.
 
 <h3>Submission instructions:</h3>
 Follow the Github standard collaboration procedure. 
@@ -42,8 +45,7 @@ Follow the Github standard collaboration procedure.
 <h3>Resources:</h3>
 <ul>
 <li>API call for backend data validation: There's a fake API call that outputs JSON of the flat file at http://localhost/nss-todo-automation/fake-API-call.php </li>
-<li>Selenium documentation: http://docs.seleniumhq.org/projects/webdriver/ </li>
+<li>Read more about jasmine testing on the jasmine framework's website: http://jasmine.github.io/</li>
+<li>Cypress documentation: https://www.cypress.io/</li>
+<li>Protractor documentation : https://www.protractortest.org/#/ </li>
 </ul>
-
-
-
