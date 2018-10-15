@@ -38,7 +38,7 @@ public class DotAPITest extends BaseAPIClass{
 	public void setUp(){
 		baseUrl = prop.getProperty("baseURL");
 		RestAssured.baseURI = baseUrl;
-		RestAssured.port = 85;
+		RestAssured.port = 80;
 		gson = new Gson();
 	}
 	
