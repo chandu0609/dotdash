@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Selenium\nss-todo-automation\automation\dotDashAPI\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">35 methods,   35 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="addCategoryWithColorToAnotherCategoryNeverMindTest(ExistingCategory, ProposedCategory, Blue, #0000ff)">addCategoryWithColorToAnotherCategoryNeverMindTest(ExistingCategory, ProposedCategory, Blue, #0000ff)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="addCategoryWithColorToAnotherCategoryRenameTest(ExistingCategory, ProposedCategory, Blue, #0000ff)">addCategoryWithColorToAnotherCategoryRenameTest(ExistingCategory, ProposedCategory, Blue, #0000ff)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="addCategoryWithColorToAnotherCategoryReplaceTest(ExistingCategory, ProposedCategory, Blue, #0000ff)">addCategoryWithColorToAnotherCategoryReplaceTest(ExistingCategory, ProposedCategory, Blue, #0000ff)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="addSimpleCategoryTest(College, Yellow, #ffff00)">addSimpleCategoryTest(College, Yellow, #ffff00)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.APITestPackage.DotAPITest" hash-for-method="allCompletedTasksTest">allCompletedTasksTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.APITestPackage.DotAPITest" hash-for-method="countTaskNamesTest">countTaskNamesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="createDuplicateTaskTest(testTask1)">createDuplicateTaskTest(testTask1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="createTaskWithCatergoryAndFutureDueDateTest(testTask1, College)">createTaskWithCatergoryAndFutureDueDateTest(testTask1, College)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="createTaskWithCatergoryAndNoDueDateTest(testTask1, College)">createTaskWithCatergoryAndNoDueDateTest(testTask1, College)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="createTaskWithCatergoryAndPreviousDueDateTest(testTask1, College)">createTaskWithCatergoryAndPreviousDueDateTest(testTask1, College)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="createTaskWithNoCatergoryAndFutureDueDateTest(testTask1)">createTaskWithNoCatergoryAndFutureDueDateTest(testTask1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="createTaskWithNoCatergoryAndInvalidDueDateTest(testTask1)">createTaskWithNoCatergoryAndInvalidDueDateTest(testTask1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="createTaskWithOutAssigningCatergoryTest(testTask1)">createTaskWithOutAssigningCatergoryTest(testTask1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="inspectCompletedTaskWithCategoryWithDateTest(testTask1, College)">inspectCompletedTaskWithCategoryWithDateTest(testTask1, College)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="inspectCompletedTaskWithNoCategoryWithDateTest(testTask1)">inspectCompletedTaskWithNoCategoryWithDateTest(testTask1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskUpdateTest" hash-for-method="inspectTaskDetailsInUpdatePageNoCategoryAndNoDueDateTest(testTask1)">inspectTaskDetailsInUpdatePageNoCategoryAndNoDueDateTest(testTask1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskUpdateTest" hash-for-method="inspectTaskDetailsInUpdatePageTest(testTask1, College)">inspectTaskDetailsInUpdatePageTest(testTask1, College)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskUpdateTest" hash-for-method="inspectTaskDetailsInUpdatePageWithNoCategoryTest(testTask1)">inspectTaskDetailsInUpdatePageWithNoCategoryTest(testTask1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskUpdateTest" hash-for-method="inspectTaskDetailsInUpdatePageWithNoDueDateTest(testTask1, College)">inspectTaskDetailsInUpdatePageWithNoDueDateTest(testTask1, College)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="inspectTasksIfCategoryIsRenamedTest(testTask1, ExistingCategory, ProposedCategory, Blue, #0000ff)">inspectTasksIfCategoryIsRenamedTest(testTask1, ExistingCategory, ProposedCategory, Blue, #0000ff)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="inspectTasksIfCategoryIsReplacedTest(testTask1, ExistingCategory, ProposedCategory, Blue, #0000ff)">inspectTasksIfCategoryIsReplacedTest(testTask1, ExistingCategory, ProposedCategory, Blue, #0000ff)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="inspectToggleAllTest">inspectToggleAllTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="inspectUnToggleAllTest">inspectUnToggleAllTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.APITestPackage.DotAPITest" hash-for-method="printTaskBasedOnDueDateDescTest">printTaskBasedOnDueDateDescTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.APITestPackage.DotAPITest" hash-for-method="printTaskNamesTest">printTaskNamesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="removeCategoryTest(College)">removeCategoryTest(College)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="removeMultipleTasksTest(testTask1, testTask2, testTask3, testTask4)">removeMultipleTasksTest(testTask1, testTask2, testTask3, testTask4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskListTest" hash-for-method="removeTaskTest(testTask1, College)">removeTaskTest(testTask1, College)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.APITestPackage.DotAPITest" hash-for-method="serviceStatusTest">serviceStatusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.APITestPackage.DotAPITest" hash-for-method="tasksCountthoseHaveCatergoryTest">tasksCountthoseHaveCatergoryTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskUpdateTest" hash-for-method="updateTaskByCategoryTest(testTask1, College, Play)">updateTaskByCategoryTest(testTask1, College, Play)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskUpdateTest" hash-for-method="updateTaskByPreviousDueDateTest(testTask1)">updateTaskByPreviousDueDateTest(testTask1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskUpdateTest" hash-for-method="updateTaskNameTest(testTask1, testTask2)">updateTaskNameTest(testTask1, testTask2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.InterfaceTest.TaskUpdateTest" hash-for-method="updateTaskWithCategoryByPreviousDueDateTest(testTask1, College)">updateTaskWithCategoryByPreviousDueDateTest(testTask1, College)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bin.APITestPackage.DotAPITest" hash-for-method="validateAllValuesAreReturnedTest">validateAllValuesAreReturnedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bin.APITestPackage.DotAPITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="allCompletedTasksTest">
+                  </a> <!-- allCompletedTasksTest -->
+                  <span class="method-name">allCompletedTasksTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="countTaskNamesTest">
+                  </a> <!-- countTaskNamesTest -->
+                  <span class="method-name">countTaskNamesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printTaskBasedOnDueDateDescTest">
+                  </a> <!-- printTaskBasedOnDueDateDescTest -->
+                  <span class="method-name">printTaskBasedOnDueDateDescTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printTaskNamesTest">
+                  </a> <!-- printTaskNamesTest -->
+                  <span class="method-name">printTaskNamesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="serviceStatusTest">
+                  </a> <!-- serviceStatusTest -->
+                  <span class="method-name">serviceStatusTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tasksCountthoseHaveCatergoryTest">
+                  </a> <!-- tasksCountthoseHaveCatergoryTest -->
+                  <span class="method-name">tasksCountthoseHaveCatergoryTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAllValuesAreReturnedTest">
+                  </a> <!-- validateAllValuesAreReturnedTest -->
+                  <span class="method-name">validateAllValuesAreReturnedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bin.InterfaceTest.TaskUpdateTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="inspectTaskDetailsInUpdatePageNoCategoryAndNoDueDateTest(testTask1)">
+                  </a> <!-- inspectTaskDetailsInUpdatePageNoCategoryAndNoDueDateTest(testTask1) -->
+                  <span class="method-name">inspectTaskDetailsInUpdatePageNoCategoryAndNoDueDateTest</span>
+                  <span class="parameters">(testTask1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inspectTaskDetailsInUpdatePageTest(testTask1, College)">
+                  </a> <!-- inspectTaskDetailsInUpdatePageTest(testTask1, College) -->
+                  <span class="method-name">inspectTaskDetailsInUpdatePageTest</span>
+                  <span class="parameters">(testTask1, College)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inspectTaskDetailsInUpdatePageWithNoCategoryTest(testTask1)">
+                  </a> <!-- inspectTaskDetailsInUpdatePageWithNoCategoryTest(testTask1) -->
+                  <span class="method-name">inspectTaskDetailsInUpdatePageWithNoCategoryTest</span>
+                  <span class="parameters">(testTask1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inspectTaskDetailsInUpdatePageWithNoDueDateTest(testTask1, College)">
+                  </a> <!-- inspectTaskDetailsInUpdatePageWithNoDueDateTest(testTask1, College) -->
+                  <span class="method-name">inspectTaskDetailsInUpdatePageWithNoDueDateTest</span>
+                  <span class="parameters">(testTask1, College)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateTaskByCategoryTest(testTask1, College, Play)">
+                  </a> <!-- updateTaskByCategoryTest(testTask1, College, Play) -->
+                  <span class="method-name">updateTaskByCategoryTest</span>
+                  <span class="parameters">(testTask1, College, Play)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateTaskByPreviousDueDateTest(testTask1)">
+                  </a> <!-- updateTaskByPreviousDueDateTest(testTask1) -->
+                  <span class="method-name">updateTaskByPreviousDueDateTest</span>
+                  <span class="parameters">(testTask1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateTaskNameTest(testTask1, testTask2)">
+                  </a> <!-- updateTaskNameTest(testTask1, testTask2) -->
+                  <span class="method-name">updateTaskNameTest</span>
+                  <span class="parameters">(testTask1, testTask2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateTaskWithCategoryByPreviousDueDateTest(testTask1, College)">
+                  </a> <!-- updateTaskWithCategoryByPreviousDueDateTest(testTask1, College) -->
+                  <span class="method-name">updateTaskWithCategoryByPreviousDueDateTest</span>
+                  <span class="parameters">(testTask1, College)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bin.InterfaceTest.TaskListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCategoryWithColorToAnotherCategoryNeverMindTest(ExistingCategory, ProposedCategory, Blue, #0000ff)">
+                  </a> <!-- addCategoryWithColorToAnotherCategoryNeverMindTest(ExistingCategory, ProposedCategory, Blue, #0000ff) -->
+                  <span class="method-name">addCategoryWithColorToAnotherCategoryNeverMindTest</span>
+                  <span class="parameters">(ExistingCategory, ProposedCategory, Blue, #0000ff)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCategoryWithColorToAnotherCategoryRenameTest(ExistingCategory, ProposedCategory, Blue, #0000ff)">
+                  </a> <!-- addCategoryWithColorToAnotherCategoryRenameTest(ExistingCategory, ProposedCategory, Blue, #0000ff) -->
+                  <span class="method-name">addCategoryWithColorToAnotherCategoryRenameTest</span>
+                  <span class="parameters">(ExistingCategory, ProposedCategory, Blue, #0000ff)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCategoryWithColorToAnotherCategoryReplaceTest(ExistingCategory, ProposedCategory, Blue, #0000ff)">
+                  </a> <!-- addCategoryWithColorToAnotherCategoryReplaceTest(ExistingCategory, ProposedCategory, Blue, #0000ff) -->
+                  <span class="method-name">addCategoryWithColorToAnotherCategoryReplaceTest</span>
+                  <span class="parameters">(ExistingCategory, ProposedCategory, Blue, #0000ff)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addSimpleCategoryTest(College, Yellow, #ffff00)">
+                  </a> <!-- addSimpleCategoryTest(College, Yellow, #ffff00) -->
+                  <span class="method-name">addSimpleCategoryTest</span>
+                  <span class="parameters">(College, Yellow, #ffff00)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createDuplicateTaskTest(testTask1)">
+                  </a> <!-- createDuplicateTaskTest(testTask1) -->
+                  <span class="method-name">createDuplicateTaskTest</span>
+                  <span class="parameters">(testTask1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createTaskWithCatergoryAndFutureDueDateTest(testTask1, College)">
+                  </a> <!-- createTaskWithCatergoryAndFutureDueDateTest(testTask1, College) -->
+                  <span class="method-name">createTaskWithCatergoryAndFutureDueDateTest</span>
+                  <span class="parameters">(testTask1, College)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createTaskWithCatergoryAndNoDueDateTest(testTask1, College)">
+                  </a> <!-- createTaskWithCatergoryAndNoDueDateTest(testTask1, College) -->
+                  <span class="method-name">createTaskWithCatergoryAndNoDueDateTest</span>
+                  <span class="parameters">(testTask1, College)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createTaskWithCatergoryAndPreviousDueDateTest(testTask1, College)">
+                  </a> <!-- createTaskWithCatergoryAndPreviousDueDateTest(testTask1, College) -->
+                  <span class="method-name">createTaskWithCatergoryAndPreviousDueDateTest</span>
+                  <span class="parameters">(testTask1, College)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createTaskWithNoCatergoryAndFutureDueDateTest(testTask1)">
+                  </a> <!-- createTaskWithNoCatergoryAndFutureDueDateTest(testTask1) -->
+                  <span class="method-name">createTaskWithNoCatergoryAndFutureDueDateTest</span>
+                  <span class="parameters">(testTask1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createTaskWithNoCatergoryAndInvalidDueDateTest(testTask1)">
+                  </a> <!-- createTaskWithNoCatergoryAndInvalidDueDateTest(testTask1) -->
+                  <span class="method-name">createTaskWithNoCatergoryAndInvalidDueDateTest</span>
+                  <span class="parameters">(testTask1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createTaskWithOutAssigningCatergoryTest(testTask1)">
+                  </a> <!-- createTaskWithOutAssigningCatergoryTest(testTask1) -->
+                  <span class="method-name">createTaskWithOutAssigningCatergoryTest</span>
+                  <span class="parameters">(testTask1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inspectCompletedTaskWithCategoryWithDateTest(testTask1, College)">
+                  </a> <!-- inspectCompletedTaskWithCategoryWithDateTest(testTask1, College) -->
+                  <span class="method-name">inspectCompletedTaskWithCategoryWithDateTest</span>
+                  <span class="parameters">(testTask1, College)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inspectCompletedTaskWithNoCategoryWithDateTest(testTask1)">
+                  </a> <!-- inspectCompletedTaskWithNoCategoryWithDateTest(testTask1) -->
+                  <span class="method-name">inspectCompletedTaskWithNoCategoryWithDateTest</span>
+                  <span class="parameters">(testTask1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inspectTasksIfCategoryIsRenamedTest(testTask1, ExistingCategory, ProposedCategory, Blue, #0000ff)">
+                  </a> <!-- inspectTasksIfCategoryIsRenamedTest(testTask1, ExistingCategory, ProposedCategory, Blue, #0000ff) -->
+                  <span class="method-name">inspectTasksIfCategoryIsRenamedTest</span>
+                  <span class="parameters">(testTask1, ExistingCategory, ProposedCategory, Blue, #0000ff)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inspectTasksIfCategoryIsReplacedTest(testTask1, ExistingCategory, ProposedCategory, Blue, #0000ff)">
+                  </a> <!-- inspectTasksIfCategoryIsReplacedTest(testTask1, ExistingCategory, ProposedCategory, Blue, #0000ff) -->
+                  <span class="method-name">inspectTasksIfCategoryIsReplacedTest</span>
+                  <span class="parameters">(testTask1, ExistingCategory, ProposedCategory, Blue, #0000ff)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inspectToggleAllTest">
+                  </a> <!-- inspectToggleAllTest -->
+                  <span class="method-name">inspectToggleAllTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inspectUnToggleAllTest">
+                  </a> <!-- inspectUnToggleAllTest -->
+                  <span class="method-name">inspectUnToggleAllTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeCategoryTest(College)">
+                  </a> <!-- removeCategoryTest(College) -->
+                  <span class="method-name">removeCategoryTest</span>
+                  <span class="parameters">(College)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeMultipleTasksTest(testTask1, testTask2, testTask3, testTask4)">
+                  </a> <!-- removeMultipleTasksTest(testTask1, testTask2, testTask3, testTask4) -->
+                  <span class="method-name">removeMultipleTasksTest</span>
+                  <span class="parameters">(testTask1, testTask2, testTask3, testTask4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeTaskTest(testTask1, College)">
+                  </a> <!-- removeTaskTest(testTask1, College) -->
+                  <span class="method-name">removeTaskTest</span>
+                  <span class="parameters">(testTask1, College)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Selenium\nss-todo-automation\automation\dotDashAPI\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;DotDashAPITests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bin.APITestPackage.DotAPITest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DotDashAPITests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;DotDashMainPage&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bin.InterfaceTest.TaskListTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DotDashMainPage --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;DotDashWebTaskUpdate&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bin.InterfaceTest.TaskUpdateTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DotDashWebTaskUpdate --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">DotDashAPITests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DotDashMainPage (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DotDashWebTaskUpdate (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(35);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'inspectCompletedTaskWithCategoryWithDateTest')
+data.setCell(0, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(0, 3, 7023);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'inspectTasksIfCategoryIsRenamedTest')
+data.setCell(1, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(1, 3, 6440);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'updateTaskByCategoryTest')
+data.setCell(2, 2, 'com.bin.InterfaceTest.TaskUpdateTest')
+data.setCell(2, 3, 6394);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'inspectTaskDetailsInUpdatePageWithNoCategoryTest')
+data.setCell(3, 2, 'com.bin.InterfaceTest.TaskUpdateTest')
+data.setCell(3, 3, 6209);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'inspectTasksIfCategoryIsReplacedTest')
+data.setCell(4, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(4, 3, 5581);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'updateTaskWithCategoryByPreviousDueDateTest')
+data.setCell(5, 2, 'com.bin.InterfaceTest.TaskUpdateTest')
+data.setCell(5, 3, 5240);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'removeMultipleTasksTest')
+data.setCell(6, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(6, 3, 5007);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'inspectTaskDetailsInUpdatePageTest')
+data.setCell(7, 2, 'com.bin.InterfaceTest.TaskUpdateTest')
+data.setCell(7, 3, 4593);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'inspectTaskDetailsInUpdatePageWithNoDueDateTest')
+data.setCell(8, 2, 'com.bin.InterfaceTest.TaskUpdateTest')
+data.setCell(8, 3, 4423);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'createTaskWithCatergoryAndFutureDueDateTest')
+data.setCell(9, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(9, 3, 4394);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'updateTaskNameTest')
+data.setCell(10, 2, 'com.bin.InterfaceTest.TaskUpdateTest')
+data.setCell(10, 3, 4376);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'inspectCompletedTaskWithNoCategoryWithDateTest')
+data.setCell(11, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(11, 3, 3628);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'removeTaskTest')
+data.setCell(12, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(12, 3, 3603);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'addCategoryWithColorToAnotherCategoryReplaceTest')
+data.setCell(13, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(13, 3, 3532);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'createTaskWithCatergoryAndPreviousDueDateTest')
+data.setCell(14, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(14, 3, 3406);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'inspectTaskDetailsInUpdatePageNoCategoryAndNoDueDateTest')
+data.setCell(15, 2, 'com.bin.InterfaceTest.TaskUpdateTest')
+data.setCell(15, 3, 3189);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'inspectUnToggleAllTest')
+data.setCell(16, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(16, 3, 3077);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'createTaskWithCatergoryAndNoDueDateTest')
+data.setCell(17, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(17, 3, 3065);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'addCategoryWithColorToAnotherCategoryRenameTest')
+data.setCell(18, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(18, 3, 3040);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'serviceStatusTest')
+data.setCell(19, 2, 'com.bin.APITestPackage.DotAPITest')
+data.setCell(19, 3, 2979);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'createDuplicateTaskTest')
+data.setCell(20, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(20, 3, 2850);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'updateTaskByPreviousDueDateTest')
+data.setCell(21, 2, 'com.bin.InterfaceTest.TaskUpdateTest')
+data.setCell(21, 3, 2782);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'createTaskWithNoCatergoryAndInvalidDueDateTest')
+data.setCell(22, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(22, 3, 2709);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'addCategoryWithColorToAnotherCategoryNeverMindTest')
+data.setCell(23, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(23, 3, 2630);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'createTaskWithNoCatergoryAndFutureDueDateTest')
+data.setCell(24, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(24, 3, 2559);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'inspectToggleAllTest')
+data.setCell(25, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(25, 3, 2539);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'createTaskWithOutAssigningCatergoryTest')
+data.setCell(26, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(26, 3, 1947);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'removeCategoryTest')
+data.setCell(27, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(27, 3, 1801);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'addSimpleCategoryTest')
+data.setCell(28, 2, 'com.bin.InterfaceTest.TaskListTest')
+data.setCell(28, 3, 1703);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'tasksCountthoseHaveCatergoryTest')
+data.setCell(29, 2, 'com.bin.APITestPackage.DotAPITest')
+data.setCell(29, 3, 94);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'validateAllValuesAreReturnedTest')
+data.setCell(30, 2, 'com.bin.APITestPackage.DotAPITest')
+data.setCell(30, 3, 47);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'printTaskBasedOnDueDateDescTest')
+data.setCell(31, 2, 'com.bin.APITestPackage.DotAPITest')
+data.setCell(31, 3, 47);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'printTaskNamesTest')
+data.setCell(32, 2, 'com.bin.APITestPackage.DotAPITest')
+data.setCell(32, 3, 31);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'countTaskNamesTest')
+data.setCell(33, 2, 'com.bin.APITestPackage.DotAPITest')
+data.setCell(33, 3, 31);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'allCompletedTasksTest')
+data.setCell(34, 2, 'com.bin.APITestPackage.DotAPITest')
+data.setCell(34, 3, 31);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bin.APITestPackage.DotAPITest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">serviceStatusTest</span>
+                <span class="method-start">1874 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tasksCountthoseHaveCatergoryTest</span>
+                <span class="method-start">4853 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printTaskNamesTest</span>
+                <span class="method-start">4950 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printTaskBasedOnDueDateDescTest</span>
+                <span class="method-start">4981 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">countTaskNamesTest</span>
+                <span class="method-start">5028 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateAllValuesAreReturnedTest</span>
+                <span class="method-start">5059 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">allCompletedTasksTest</span>
+                <span class="method-start">5106 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bin.InterfaceTest.TaskListTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5372 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createTaskWithOutAssigningCatergoryTest(testTask1)</span>
+                <span class="method-start">24926 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26881 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27635 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createDuplicateTaskTest(testTask1)</span>
+                <span class="method-start">35210 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38060 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">38398 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createTaskWithCatergoryAndNoDueDateTest(testTask1, College)</span>
+                <span class="method-start">44631 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47700 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">47911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createTaskWithCatergoryAndFutureDueDateTest(testTask1, College)</span>
+                <span class="method-start">55330 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59728 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">60014 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createTaskWithNoCatergoryAndFutureDueDateTest(testTask1)</span>
+                <span class="method-start">67783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70346 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">70522 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createTaskWithCatergoryAndPreviousDueDateTest(testTask1, College)</span>
+                <span class="method-start">77691 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81101 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">81339 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeTaskTest(testTask1, College)</span>
+                <span class="method-start">88005 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">91608 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">91832 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeMultipleTasksTest(testTask1, testTask2, testTask3, testTask4)</span>
+                <span class="method-start">99204 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">104211 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">104539 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createTaskWithNoCatergoryAndInvalidDueDateTest(testTask1)</span>
+                <span class="method-start">111502 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">114215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">114459 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inspectCompletedTaskWithNoCategoryWithDateTest(testTask1)</span>
+                <span class="method-start">121583 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">125211 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">125452 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inspectCompletedTaskWithCategoryWithDateTest(testTask1, College)</span>
+                <span class="method-start">132452 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">139475 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">139754 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inspectToggleAllTest</span>
+                <span class="method-start">146670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">149209 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">149834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inspectUnToggleAllTest</span>
+                <span class="method-start">156928 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">160005 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">160631 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addSimpleCategoryTest(College, Yellow, #ffff00)</span>
+                <span class="method-start">167664 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">169367 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">169693 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addCategoryWithColorToAnotherCategoryRenameTest(ExistingCategory, ProposedCategory, Blue, #0000ff)</span>
+                <span class="method-start">176775 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">179815 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">180172 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addCategoryWithColorToAnotherCategoryReplaceTest(ExistingCategory, ProposedCategory, Blue, #0000ff)</span>
+                <span class="method-start">187119 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">190651 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">190871 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addCategoryWithColorToAnotherCategoryNeverMindTest(ExistingCategory, ProposedCategory, Blue, #0000ff)</span>
+                <span class="method-start">196901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">199531 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">199756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeCategoryTest(College)</span>
+                <span class="method-start">207171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">208972 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">209347 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inspectTasksIfCategoryIsRenamedTest(testTask1, ExistingCategory, ProposedCategory, Blue, #0000ff)</span>
+                <span class="method-start">216299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">222739 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">222955 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inspectTasksIfCategoryIsReplacedTest(testTask1, ExistingCategory, ProposedCategory, Blue, #0000ff)</span>
+                <span class="method-start">229951 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">235536 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bin.InterfaceTest.TaskUpdateTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">235827 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inspectTaskDetailsInUpdatePageTest(testTask1, College)</span>
+                <span class="method-start">242171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">246764 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">247053 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inspectTaskDetailsInUpdatePageWithNoCategoryTest(testTask1)</span>
+                <span class="method-start">254125 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">260334 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">260580 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inspectTaskDetailsInUpdatePageWithNoDueDateTest(testTask1, College)</span>
+                <span class="method-start">267940 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">272363 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">272641 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inspectTaskDetailsInUpdatePageNoCategoryAndNoDueDateTest(testTask1)</span>
+                <span class="method-start">278714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">281903 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">282213 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateTaskNameTest(testTask1, testTask2)</span>
+                <span class="method-start">289496 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">293876 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">294579 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateTaskByCategoryTest(testTask1, College, Play)</span>
+                <span class="method-start">300453 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">306847 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">307187 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateTaskByPreviousDueDateTest(testTask1)</span>
+                <span class="method-start">315637 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">318419 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">318796 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateTaskWithCategoryByPreviousDueDateTest(testTask1, College)</span>
+                <span class="method-start">325635 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">330875 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    
+  <test thread-count="5" name="DotDashAPITests" preserve-order="true" parallel="false">
+    <classes>
+      <class name="com.bin.APITestPackage.DotAPITest"/>
+      </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="DotDashMainPage" preserve-order="true" parallel="false">
+    <classes>
+      <class name="com.bin.InterfaceTest.TaskListTest"/>
+       
+      </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="DotDashWebTaskUpdate" preserve-order="true" parallel="false">
+    <classes>
+      <class name="com.bin.InterfaceTest.TaskUpdateTest"/>
+       
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

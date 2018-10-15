@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="DotDashMainPage(failed)">
+    <classes>
+      <class name="com.bin.InterfaceTest.TaskListTest">
+        <methods>
+          <include name="inspectCompletedTaskWithCategoryWithDateTest"/>
+          <include name="setUp"/>
+          <include name="addSimpleCategoryTest"/>
+          <include name="inspectToggleAllTest"/>
+          <include name="removeTaskTest"/>
+          <include name="inspectTasksIfCategoryIsRenamedTest"/>
+          <include name="removeMultipleTasksTest"/>
+          <include name="addCategoryWithColorToAnotherCategoryRenameTest"/>
+          <include name="inspectCompletedTaskWithNoCategoryWithDateTest"/>
+          <include name="inspectTasksIfCategoryIsReplacedTest"/>
+          <include name="addCategoryWithColorToAnotherCategoryReplaceTest"/>
+          <include name="addCategoryWithColorToAnotherCategoryNeverMindTest"/>
+          <include name="removeCategoryTest"/>
+          <include name="createTaskWithNoCatergoryAndInvalidDueDateTest"/>
+          <include name="tearDown"/>
+          <include name="createTaskWithCatergoryAndPreviousDueDateTest"/>
+          <include name="inspectUnToggleAllTest"/>
+        </methods>
+      </class> <!-- com.bin.InterfaceTest.TaskListTest -->
+    </classes>
+  </test> <!-- DotDashMainPage(failed) -->
+</suite> <!-- Failed suite [Suite] -->

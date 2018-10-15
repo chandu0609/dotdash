@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="35" passed="35">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="331294" started-at="2018-10-14T23:21:39Z" finished-at="2018-10-14T23:27:10Z">
+    <groups>
+    </groups>
+    <test name="DotDashAPITests" duration-ms="5169" started-at="2018-10-14T23:21:39Z" finished-at="2018-10-14T23:21:44Z">
+      <class name="com.bin.APITestPackage.DotAPITest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.APITestPackage.DotAPITest@6500df86]" name="setUp" is-config="true" duration-ms="1859" started-at="2018-10-14T23:21:39Z" finished-at="2018-10-14T23:21:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="serviceStatusTest()[pri:1, instance:com.bin.APITestPackage.DotAPITest@6500df86]" name="serviceStatusTest" duration-ms="2979" started-at="2018-10-14T23:21:41Z" finished-at="2018-10-14T23:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serviceStatusTest -->
+        <test-method status="PASS" signature="tasksCountthoseHaveCatergoryTest()[pri:2, instance:com.bin.APITestPackage.DotAPITest@6500df86]" name="tasksCountthoseHaveCatergoryTest" duration-ms="94" started-at="2018-10-14T23:21:44Z" finished-at="2018-10-14T23:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tasksCountthoseHaveCatergoryTest -->
+        <test-method status="PASS" signature="printTaskNamesTest()[pri:3, instance:com.bin.APITestPackage.DotAPITest@6500df86]" name="printTaskNamesTest" duration-ms="31" started-at="2018-10-14T23:21:44Z" finished-at="2018-10-14T23:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTaskNamesTest -->
+        <test-method status="PASS" signature="printTaskBasedOnDueDateDescTest()[pri:4, instance:com.bin.APITestPackage.DotAPITest@6500df86]" name="printTaskBasedOnDueDateDescTest" duration-ms="47" started-at="2018-10-14T23:21:44Z" finished-at="2018-10-14T23:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTaskBasedOnDueDateDescTest -->
+        <test-method status="PASS" signature="countTaskNamesTest()[pri:5, instance:com.bin.APITestPackage.DotAPITest@6500df86]" name="countTaskNamesTest" duration-ms="31" started-at="2018-10-14T23:21:44Z" finished-at="2018-10-14T23:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countTaskNamesTest -->
+        <test-method status="PASS" signature="validateAllValuesAreReturnedTest()[pri:6, instance:com.bin.APITestPackage.DotAPITest@6500df86]" name="validateAllValuesAreReturnedTest" duration-ms="47" started-at="2018-10-14T23:21:44Z" finished-at="2018-10-14T23:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllValuesAreReturnedTest -->
+        <test-method status="PASS" signature="allCompletedTasksTest()[pri:7, instance:com.bin.APITestPackage.DotAPITest@6500df86]" name="allCompletedTasksTest" duration-ms="31" started-at="2018-10-14T23:21:44Z" finished-at="2018-10-14T23:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allCompletedTasksTest -->
+      </class> <!-- com.bin.APITestPackage.DotAPITest -->
+    </test> <!-- DotDashAPITests -->
+    <test name="DotDashMainPage" duration-ms="230408" started-at="2018-10-14T23:21:44Z" finished-at="2018-10-14T23:25:35Z">
+      <class name="com.bin.InterfaceTest.TaskListTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="19554" started-at="2018-10-14T23:21:44Z" finished-at="2018-10-14T23:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createTaskWithOutAssigningCatergoryTest(java.lang.String)[pri:1, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="createTaskWithOutAssigningCatergoryTest" duration-ms="1947" started-at="2018-10-14T23:22:04Z" data-provider="taskNames" finished-at="2018-10-14T23:22:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTaskWithOutAssigningCatergoryTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="739" started-at="2018-10-14T23:22:06Z" finished-at="2018-10-14T23:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="7575" started-at="2018-10-14T23:22:07Z" finished-at="2018-10-14T23:22:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createDuplicateTaskTest(java.lang.String)[pri:2, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="createDuplicateTaskTest" duration-ms="2850" started-at="2018-10-14T23:22:14Z" data-provider="taskNames" finished-at="2018-10-14T23:22:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDuplicateTaskTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="338" started-at="2018-10-14T23:22:17Z" finished-at="2018-10-14T23:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="6233" started-at="2018-10-14T23:22:17Z" finished-at="2018-10-14T23:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createTaskWithCatergoryAndNoDueDateTest(java.lang.String, java.lang.String)[pri:3, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="createTaskWithCatergoryAndNoDueDateTest" duration-ms="3065" started-at="2018-10-14T23:22:24Z" data-provider="categoryNames" finished-at="2018-10-14T23:22:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[College]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTaskWithCatergoryAndNoDueDateTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="195" started-at="2018-10-14T23:22:27Z" finished-at="2018-10-14T23:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="7419" started-at="2018-10-14T23:22:27Z" finished-at="2018-10-14T23:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createTaskWithCatergoryAndFutureDueDateTest(java.lang.String, java.lang.String)[pri:4, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="createTaskWithCatergoryAndFutureDueDateTest" duration-ms="4394" started-at="2018-10-14T23:22:34Z" data-provider="categoryNames" finished-at="2018-10-14T23:22:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[College]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTaskWithCatergoryAndFutureDueDateTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="271" started-at="2018-10-14T23:22:39Z" finished-at="2018-10-14T23:22:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="7769" started-at="2018-10-14T23:22:39Z" finished-at="2018-10-14T23:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createTaskWithNoCatergoryAndFutureDueDateTest(java.lang.String)[pri:5, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="createTaskWithNoCatergoryAndFutureDueDateTest" duration-ms="2559" started-at="2018-10-14T23:22:47Z" data-provider="taskNames" finished-at="2018-10-14T23:22:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTaskWithNoCatergoryAndFutureDueDateTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="176" started-at="2018-10-14T23:22:49Z" finished-at="2018-10-14T23:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="7169" started-at="2018-10-14T23:22:50Z" finished-at="2018-10-14T23:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createTaskWithCatergoryAndPreviousDueDateTest(java.lang.String, java.lang.String)[pri:6, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="createTaskWithCatergoryAndPreviousDueDateTest" duration-ms="3406" started-at="2018-10-14T23:22:57Z" data-provider="categoryNames" finished-at="2018-10-14T23:23:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[College]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTaskWithCatergoryAndPreviousDueDateTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="238" started-at="2018-10-14T23:23:00Z" finished-at="2018-10-14T23:23:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="6666" started-at="2018-10-14T23:23:00Z" finished-at="2018-10-14T23:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="removeTaskTest(java.lang.String, java.lang.String)[pri:7, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="removeTaskTest" duration-ms="3603" started-at="2018-10-14T23:23:07Z" data-provider="categoryNames" finished-at="2018-10-14T23:23:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[College]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeTaskTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="224" started-at="2018-10-14T23:23:11Z" finished-at="2018-10-14T23:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="7372" started-at="2018-10-14T23:23:11Z" finished-at="2018-10-14T23:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="removeMultipleTasksTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:8, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="removeMultipleTasksTest" duration-ms="5007" started-at="2018-10-14T23:23:18Z" data-provider="multipleTaskNames" finished-at="2018-10-14T23:23:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testTask2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testTask3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testTask4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeMultipleTasksTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="328" started-at="2018-10-14T23:23:23Z" finished-at="2018-10-14T23:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="6963" started-at="2018-10-14T23:23:24Z" finished-at="2018-10-14T23:23:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createTaskWithNoCatergoryAndInvalidDueDateTest(java.lang.String)[pri:9, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="createTaskWithNoCatergoryAndInvalidDueDateTest" duration-ms="2709" started-at="2018-10-14T23:23:31Z" data-provider="taskNames" finished-at="2018-10-14T23:23:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTaskWithNoCatergoryAndInvalidDueDateTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="244" started-at="2018-10-14T23:23:33Z" finished-at="2018-10-14T23:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="7124" started-at="2018-10-14T23:23:34Z" finished-at="2018-10-14T23:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inspectCompletedTaskWithNoCategoryWithDateTest(java.lang.String)[pri:10, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="inspectCompletedTaskWithNoCategoryWithDateTest" duration-ms="3628" started-at="2018-10-14T23:23:41Z" data-provider="taskNames" finished-at="2018-10-14T23:23:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inspectCompletedTaskWithNoCategoryWithDateTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="241" started-at="2018-10-14T23:23:44Z" finished-at="2018-10-14T23:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="7000" started-at="2018-10-14T23:23:45Z" finished-at="2018-10-14T23:23:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inspectCompletedTaskWithCategoryWithDateTest(java.lang.String, java.lang.String)[pri:11, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="inspectCompletedTaskWithCategoryWithDateTest" duration-ms="7023" started-at="2018-10-14T23:23:52Z" data-provider="categoryNames" finished-at="2018-10-14T23:23:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[College]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inspectCompletedTaskWithCategoryWithDateTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="279" started-at="2018-10-14T23:23:59Z" finished-at="2018-10-14T23:23:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="6916" started-at="2018-10-14T23:23:59Z" finished-at="2018-10-14T23:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inspectToggleAllTest()[pri:12, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="inspectToggleAllTest" duration-ms="2539" started-at="2018-10-14T23:24:06Z" finished-at="2018-10-14T23:24:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inspectToggleAllTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="625" started-at="2018-10-14T23:24:08Z" finished-at="2018-10-14T23:24:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="7094" started-at="2018-10-14T23:24:09Z" finished-at="2018-10-14T23:24:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inspectUnToggleAllTest()[pri:13, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="inspectUnToggleAllTest" duration-ms="3077" started-at="2018-10-14T23:24:16Z" finished-at="2018-10-14T23:24:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inspectUnToggleAllTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="626" started-at="2018-10-14T23:24:19Z" finished-at="2018-10-14T23:24:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="7033" started-at="2018-10-14T23:24:20Z" finished-at="2018-10-14T23:24:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addSimpleCategoryTest(java.lang.String, java.lang.String, java.lang.String)[pri:14, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="addSimpleCategoryTest" duration-ms="1703" started-at="2018-10-14T23:24:27Z" data-provider="singleCategory" finished-at="2018-10-14T23:24:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[College]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yellow]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[#ffff00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSimpleCategoryTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="326" started-at="2018-10-14T23:24:28Z" finished-at="2018-10-14T23:24:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="7082" started-at="2018-10-14T23:24:29Z" finished-at="2018-10-14T23:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCategoryWithColorToAnotherCategoryRenameTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:15, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="addCategoryWithColorToAnotherCategoryRenameTest" duration-ms="3040" started-at="2018-10-14T23:24:36Z" data-provider="addAnotherWithSameColor" finished-at="2018-10-14T23:24:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ExistingCategory]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ProposedCategory]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Blue]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[#0000ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCategoryWithColorToAnotherCategoryRenameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="342" started-at="2018-10-14T23:24:39Z" finished-at="2018-10-14T23:24:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="6947" started-at="2018-10-14T23:24:39Z" finished-at="2018-10-14T23:24:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCategoryWithColorToAnotherCategoryReplaceTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:16, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="addCategoryWithColorToAnotherCategoryReplaceTest" duration-ms="3532" started-at="2018-10-14T23:24:46Z" data-provider="addAnotherWithSameColor" finished-at="2018-10-14T23:24:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ExistingCategory]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ProposedCategory]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Blue]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[#0000ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCategoryWithColorToAnotherCategoryReplaceTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="220" started-at="2018-10-14T23:24:50Z" finished-at="2018-10-14T23:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="6030" started-at="2018-10-14T23:24:50Z" finished-at="2018-10-14T23:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCategoryWithColorToAnotherCategoryNeverMindTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:17, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="addCategoryWithColorToAnotherCategoryNeverMindTest" duration-ms="2630" started-at="2018-10-14T23:24:56Z" data-provider="addAnotherWithSameColor" finished-at="2018-10-14T23:24:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ExistingCategory]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ProposedCategory]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Blue]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[#0000ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCategoryWithColorToAnotherCategoryNeverMindTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="225" started-at="2018-10-14T23:24:59Z" finished-at="2018-10-14T23:24:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="7415" started-at="2018-10-14T23:24:59Z" finished-at="2018-10-14T23:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="removeCategoryTest(java.lang.String)[pri:18, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="removeCategoryTest" duration-ms="1801" started-at="2018-10-14T23:25:06Z" data-provider="onlyCategory" finished-at="2018-10-14T23:25:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[College]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeCategoryTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="375" started-at="2018-10-14T23:25:08Z" finished-at="2018-10-14T23:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="6952" started-at="2018-10-14T23:25:08Z" finished-at="2018-10-14T23:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inspectTasksIfCategoryIsRenamedTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:19, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="inspectTasksIfCategoryIsRenamedTest" duration-ms="6440" started-at="2018-10-14T23:25:15Z" data-provider="listOfCategoryAndTasks" finished-at="2018-10-14T23:25:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExistingCategory]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ProposedCategory]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Blue]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[#0000ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inspectTasksIfCategoryIsRenamedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="216" started-at="2018-10-14T23:25:22Z" finished-at="2018-10-14T23:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="setUp" is-config="true" duration-ms="6996" started-at="2018-10-14T23:25:22Z" finished-at="2018-10-14T23:25:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inspectTasksIfCategoryIsReplacedTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:20, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="inspectTasksIfCategoryIsReplacedTest" duration-ms="5581" started-at="2018-10-14T23:25:29Z" data-provider="listOfCategoryAndTasks" finished-at="2018-10-14T23:25:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExistingCategory]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ProposedCategory]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Blue]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[#0000ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inspectTasksIfCategoryIsReplacedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskListTest@55d56113]" name="tearDown" is-config="true" duration-ms="228" started-at="2018-10-14T23:25:35Z" finished-at="2018-10-14T23:25:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bin.InterfaceTest.TaskListTest -->
+    </test> <!-- DotDashMainPage -->
+    <test name="DotDashWebTaskUpdate" duration-ms="95451" started-at="2018-10-14T23:25:35Z" finished-at="2018-10-14T23:27:10Z">
+      <class name="com.bin.InterfaceTest.TaskUpdateTest">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="setUpMethod" is-config="true" duration-ms="6344" started-at="2018-10-14T23:25:35Z" finished-at="2018-10-14T23:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="inspectTaskDetailsInUpdatePageTest(java.lang.String, java.lang.String)[pri:1, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="inspectTaskDetailsInUpdatePageTest" duration-ms="4593" started-at="2018-10-14T23:25:41Z" data-provider="categoryNames" finished-at="2018-10-14T23:25:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[College]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inspectTaskDetailsInUpdatePageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="tearDown" is-config="true" duration-ms="289" started-at="2018-10-14T23:25:46Z" finished-at="2018-10-14T23:25:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="setUpMethod" is-config="true" duration-ms="7072" started-at="2018-10-14T23:25:46Z" finished-at="2018-10-14T23:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="inspectTaskDetailsInUpdatePageWithNoCategoryTest(java.lang.String)[pri:2, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="inspectTaskDetailsInUpdatePageWithNoCategoryTest" duration-ms="6209" started-at="2018-10-14T23:25:53Z" data-provider="taskNames" finished-at="2018-10-14T23:25:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inspectTaskDetailsInUpdatePageWithNoCategoryTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="tearDown" is-config="true" duration-ms="246" started-at="2018-10-14T23:25:59Z" finished-at="2018-10-14T23:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="setUpMethod" is-config="true" duration-ms="7360" started-at="2018-10-14T23:26:00Z" finished-at="2018-10-14T23:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="inspectTaskDetailsInUpdatePageWithNoDueDateTest(java.lang.String, java.lang.String)[pri:3, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="inspectTaskDetailsInUpdatePageWithNoDueDateTest" duration-ms="4423" started-at="2018-10-14T23:26:07Z" data-provider="categoryNames" finished-at="2018-10-14T23:26:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[College]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inspectTaskDetailsInUpdatePageWithNoDueDateTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="tearDown" is-config="true" duration-ms="278" started-at="2018-10-14T23:26:11Z" finished-at="2018-10-14T23:26:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="setUpMethod" is-config="true" duration-ms="6073" started-at="2018-10-14T23:26:12Z" finished-at="2018-10-14T23:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="inspectTaskDetailsInUpdatePageNoCategoryAndNoDueDateTest(java.lang.String)[pri:4, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="inspectTaskDetailsInUpdatePageNoCategoryAndNoDueDateTest" duration-ms="3189" started-at="2018-10-14T23:26:18Z" data-provider="taskNames" finished-at="2018-10-14T23:26:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inspectTaskDetailsInUpdatePageNoCategoryAndNoDueDateTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="tearDown" is-config="true" duration-ms="310" started-at="2018-10-14T23:26:21Z" finished-at="2018-10-14T23:26:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="setUpMethod" is-config="true" duration-ms="7283" started-at="2018-10-14T23:26:21Z" finished-at="2018-10-14T23:26:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="updateTaskNameTest(java.lang.String, java.lang.String)[pri:5, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="updateTaskNameTest" duration-ms="4376" started-at="2018-10-14T23:26:29Z" data-provider="taskNames" finished-at="2018-10-14T23:26:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testTask2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTaskNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="tearDown" is-config="true" duration-ms="703" started-at="2018-10-14T23:26:33Z" finished-at="2018-10-14T23:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="setUpMethod" is-config="true" duration-ms="5874" started-at="2018-10-14T23:26:34Z" finished-at="2018-10-14T23:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="updateTaskByCategoryTest(java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="updateTaskByCategoryTest" duration-ms="6394" started-at="2018-10-14T23:26:40Z" data-provider="taskUpdateCategoryNames" finished-at="2018-10-14T23:26:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[College]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Play]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTaskByCategoryTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="tearDown" is-config="true" duration-ms="340" started-at="2018-10-14T23:26:46Z" finished-at="2018-10-14T23:26:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="setUpMethod" is-config="true" duration-ms="8450" started-at="2018-10-14T23:26:46Z" finished-at="2018-10-14T23:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="updateTaskByPreviousDueDateTest(java.lang.String)[pri:7, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="updateTaskByPreviousDueDateTest" duration-ms="2782" started-at="2018-10-14T23:26:55Z" data-provider="taskNames" finished-at="2018-10-14T23:26:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTaskByPreviousDueDateTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="tearDown" is-config="true" duration-ms="377" started-at="2018-10-14T23:26:58Z" finished-at="2018-10-14T23:26:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="setUpMethod" is-config="true" duration-ms="6839" started-at="2018-10-14T23:26:58Z" finished-at="2018-10-14T23:27:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="updateTaskWithCategoryByPreviousDueDateTest(java.lang.String, java.lang.String)[pri:8, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="updateTaskWithCategoryByPreviousDueDateTest" duration-ms="5240" started-at="2018-10-14T23:27:05Z" data-provider="categoryNames" finished-at="2018-10-14T23:27:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testTask1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[College]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTaskWithCategoryByPreviousDueDateTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bin.InterfaceTest.TaskUpdateTest@60c6f5b]" name="tearDown" is-config="true" duration-ms="387" started-at="2018-10-14T23:27:10Z" finished-at="2018-10-14T23:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bin.InterfaceTest.TaskUpdateTest -->
+    </test> <!-- DotDashWebTaskUpdate -->
+  </suite> <!-- Suite -->
+</testng-results>
